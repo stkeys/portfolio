@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { Twitter, GitHub, Linkedin } from 'react-feather'
 
 export default function Home() {
   return (
@@ -10,20 +11,20 @@ export default function Home() {
           <nav className="">
             <ul className="flex gap-10 text-[20px] sm:text-[30px]">
               <li className="">
-                <Link href="/">
-                
-                </Link>
-              </li>
-              
-              <li className="">
-                <Link href="/">
-                
+                <Link href="/https://x.com/stykeys1?t=ZanfWsVFCzLRiVE511HcAg&s=08">
+                   <Twitter />
                 </Link>
               </li>
 
               <li className="">
-                <Link href="/">
-                
+                <Link href="/https://github.com/stkeys">
+                    <GitHub />
+                </Link>
+              </li>
+
+              <li className="">
+                <Link href="/https://www.linkedin.com/in/mary-ola-olukotun-58179125a">
+                    <Linkedin />
                 </Link>
               </li>
             </ul>
