@@ -11,19 +11,19 @@ export default function Home() {
           <nav className="">
             <ul className="flex gap-10 text-[20px] sm:text-[30px]">
               <li className="">
-                <Link href="/https://x.com/stykeys1?t=ZanfWsVFCzLRiVE511HcAg&s=08">
+                <Link href="https://x.com/stykeys1?t=ZanfWsVFCzLRiVE511HcAg&s=08">
                    <Twitter />
                 </Link>
               </li>
 
               <li className="">
-                <Link href="/https://github.com/stkeys">
+                <Link href="https://github.com/stkeys">
                     <GitHub />
                 </Link>
               </li>
 
               <li className="">
-                <Link href="/https://www.linkedin.com/in/mary-ola-olukotun-58179125a">
+                <Link href="https://www.linkedin.com/in/mary-ola-olukotun-58179125a">
                     <Linkedin />
                 </Link>
               </li>
